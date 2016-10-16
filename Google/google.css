@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	font-family: 'Arial', 'sans-serif';
+	font-size: 12px;
+}
+
+#navbar {
+	float: right;
+    margin: 20px 20px 0 0;
+    font-size: 12px;
+}
+
+#navbar li{
+	display: inline;
+	margin-right:10px;
+	cursor: pointer;
+}
+
+#navbar button{
+	padding: 8px 14px;
+	color: white;
+	background-color: #4285f4;
+	border-radius: 2px;
+	border-color: #4285f4; 
+	font-weight: bold;
+	border: none;
+}
+
+/*#navbar li:nth-child(4) {
+	    background: url('sprites.png') top right no-repeat;
+    -webkit-background-size: 92px 2541px;
+    background-size: 92px 2541px;
+    height:20px;
+}*/
+
+#container{
+	text-align: center;
+	width:580px;
+	margin:0 auto;
+	padding-top:150px;
+}
+
+h1#logo{
+	width:269px;
+	height: 95px;
+	background: url('googlelogo.png') top left no-repeat;
+	background-size: 100%;
+	text-indent: -9999px;
+	margin: 0 auto;
+}
+
+#country {
+	    color: #4285f4;
+    font-size: 16px;
+    left: 88px;
+    position: relative;
+    top: -21px;
+    white-space: nowrap;
+    width: 0;
+}
+
+#search-container{
+	margin-left:-50px;
+}
+
+#search-field input[type="text"] {
+	width:670px;
+	padding: 7px;
+	margin: 0 0 18px 0;
+	font-size: 16px;
+	font-family: 'Arial';
+	font-weight: 100;
+	border: solid 1px #cccccc;
+}
+
+#search-field input[type="text"]:hover {
+	border-color: #aaaaaa
+}
+
+#search-field{
+	position: relative;
+	cursor: text;	
+}
+
+#search-field #microphone{
+		background: url('microphone.png') top right no-repeat;
+		background-size: 24px 24px;
+		position:absolute;
+		right:-50px;
+		top:7px;
+		width:19px;
+		height:23px;
+		cursor: pointer;
+}
+
+#recent {
+	width:688px;
+	height:200px;
+	margin: 0 auto;
+	margin-top: 45px;
+	margin-left: -50px;
+}
+
+#recent div{
+	width: 154px;
+	height:128px;
+	float: left;
+	border: 1px solid #eeeeee;
+	margin: 0 16px 10px 0;
+	background-color: #eeeeee;
+	position: relative;
+}
+
+#recent .tile-container{
+	border: 1px solid rgba(150,150,150,0.3137254901960784);
+	border-radius: 2px;
+	cursor: pointer;
+	background-color: #eeeeee;
+	background: url('favicon.png') 6px 5px no-repeat;
+	background-size: 16px;
+	background-color: #eeeeee;
+}	
+
+#recent .tile-container:hover{
+	-webkit-box-shadow: 0px 0px 14px 1px rgba(230,230,230,1);
+	-moz-box-shadow: 0px 0px 14px 1px rgba(230,230,230,1);
+	box-shadow: 0px 0px 14px 1px rgba(230,230,230,1);;
+	background: url('close_3.png') top right no-repeat;
+	background-position: 135px 8px;
+	background: url('favicon.png') 6px 5px no-repeat;
+	background-size: 16px;
+	background-color: #eeeeee;
+}
+
+#recent .tile{
+	width:98%;
+	height: 98px;
+	background-color: white;
+	position: absolute;
+	top:28px;
+	left:1px;
+}
+
+#recent .tile-close{
+    position: absolute;
+    top: 9px;
+    right: 7px;
+    width: 10px;
+    height: 10px;
+}
+
+#recent .tile-header {
+	-webkit-mask-image: linear-gradient(to right, #000, #000, 100px, transparent);
+	position: absolute;
+	top: 7px;
+	left:15px;
+	width:70px;
+
+}
